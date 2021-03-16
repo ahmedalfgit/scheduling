@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/redScheduling/static/css/main.dde84ac0.chunk.css",
+    "main.js": "/redScheduling/static/js/main.dffe8617.chunk.js",
+    "main.js.map": "/redScheduling/static/js/main.dffe8617.chunk.js.map",
+    "runtime-main.js": "/redScheduling/static/js/runtime-main.463f95c8.js",
+    "runtime-main.js.map": "/redScheduling/static/js/runtime-main.463f95c8.js.map",
+    "static/js/2.f292cd0a.chunk.js": "/redScheduling/static/js/2.f292cd0a.chunk.js",
+    "static/js/2.f292cd0a.chunk.js.map": "/redScheduling/static/js/2.f292cd0a.chunk.js.map",
+    "index.html": "/redScheduling/index.html",
+    "static/css/main.dde84ac0.chunk.css.map": "/redScheduling/static/css/main.dde84ac0.chunk.css.map",
+    "static/js/2.f292cd0a.chunk.js.LICENSE.txt": "/redScheduling/static/js/2.f292cd0a.chunk.js.LICENSE.txt",
+    "static/media/Vcita-mobile.8f0f4cb8.jpg": "/redScheduling/static/media/Vcita-mobile.8f0f4cb8.jpg",
+    "static/media/Vcita.17863d2f.jpg": "/redScheduling/static/media/Vcita.17863d2f.jpg",
+    "static/media/booking-mobile.c8d9479b.jpg": "/redScheduling/static/media/booking-mobile.c8d9479b.jpg",
+    "static/media/booking.589f5a0a.jpg": "/redScheduling/static/media/booking.589f5a0a.jpg",
+    "static/media/business-card.3bc5f74e.jpg": "/redScheduling/static/media/business-card.3bc5f74e.jpg",
+    "static/media/homePage-icon-mobile.344c1d6d.png": "/redScheduling/static/media/homePage-icon-mobile.344c1d6d.png",
+    "static/media/homePage-icon.75a39a44.png": "/redScheduling/static/media/homePage-icon.75a39a44.png",
+    "static/media/logo.1a129056.jpg": "/redScheduling/static/media/logo.1a129056.jpg",
+    "static/media/new-client.c40cbff1.png": "/redScheduling/static/media/new-client.c40cbff1.png",
+    "static/media/phone.3ad05b47.jpg": "/redScheduling/static/media/phone.3ad05b47.jpg",
+    "static/media/vCita-new-clients.14af5f5b.gif": "/redScheduling/static/media/vCita-new-clients.14af5f5b.gif",
+    "static/media/website-mobile.6b0d4778.jpg": "/redScheduling/static/media/website-mobile.6b0d4778.jpg",
+    "static/media/website.bb71cc0c.jpg": "/redScheduling/static/media/website.bb71cc0c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.463f95c8.js",
+    "static/js/2.f292cd0a.chunk.js",
+    "static/css/main.dde84ac0.chunk.css",
+    "static/js/main.dffe8617.chunk.js"
+  ]
+}
