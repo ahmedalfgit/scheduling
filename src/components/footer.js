@@ -12,6 +12,7 @@ const Footer = (props) => {
         <Helmet>
         <script src="https://apps.elfsight.com/p/platform.js" defer>
             </script>
+                <script async src="https://www.widgetsquad.com/pixel/jey6kaqdrnfkq4brloyttj17i5zogryr"></script>
       </Helmet>
     <TableFooter className="footer">
         <Grid container className="pt-5 mt-5 justify-center">
