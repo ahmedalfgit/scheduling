@@ -51,7 +51,7 @@ const FullWidthGrid = (props) => {
           <img src={HomePageMidIcon} alt="home page mid icon" className="homePage-mid-icon w-100"/>
         </Grid>
         <Grid item xs={12} sm={8} md={3} className="homePage-content-col">
-          <div className="mission-section">
+          <div className="mission-section pt-xs-5">
             <h1 className="statement-h1">
               التغير اسهل معنا
             </h1>
