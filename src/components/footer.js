@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TableFooter from '@material-ui/core/TableFooter';
 import Grid from '@material-ui/core/Grid';
-
+import Helmet from "react-helmet";
 
 
 
@@ -9,6 +9,10 @@ const Footer = (props) => {
 
   return (
     <React.Fragment>
+        <Helmet>
+        <script src="https://apps.elfsight.com/p/platform.js" defer>
+            </script>
+      </Helmet>
     <TableFooter className="footer">
         <Grid container className="pt-5 mt-5 justify-center">
             <Grid item sm={5} xs={6} md={2} className="orange-box-col">
@@ -39,6 +43,7 @@ const Footer = (props) => {
                 </h5>
             </Grid>
         </Grid>
+        <div className="elfsight-app-38d41f1d-12a1-4f33-a280-71371f5263dd"></div>
     </TableFooter>
       </React.Fragment>
    
