@@ -120,9 +120,9 @@ const FullWidthGrid = (props) => {
         <Grid item xs={12} sm={12} className="my-xs-5">
           <Logo/>
         </Grid>
-        <Grid item xs={12} sm={12} className="my-xs-5">
+        {/* <Grid item xs={12} sm={12} className="my-xs-5">
           <Form/>
-        </Grid>
+        </Grid> */}
       </Grid>
     </div>
   );
