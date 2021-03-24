@@ -322,9 +322,9 @@ body {
         margin-right: auto;
 
         .red-scheduling-icon {
-          width: 50%;
+          width: 20%;
           position: relative;
-          right: 20%;
+          right: 28%;
         }
       }
       .toggleMenu {
@@ -1016,6 +1016,9 @@ body {
       .redIcon {
         margin-left: 5rem;
         margin-right: auto !important;
+        .red-scheduling-icon {
+          max-height: 72px;
+        }
       }
 
       .MuiButton-text {

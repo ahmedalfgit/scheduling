@@ -46,8 +46,7 @@ const NavBar = (props) => {
     return (
       <div>
         <Helmet>
-        <script src="https://apps.elfsight.com/p/platform.js" defer>
-            </script>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       </Helmet>
       <div className="main-nav">
         <AppBar position="static" className="navBar-bg">
