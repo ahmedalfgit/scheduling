@@ -8,6 +8,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import {Helmet} from 'react-helmet';
 
 const useStyles = makeStyles({
   table: {
@@ -36,6 +37,11 @@ export default function PricesTable() {
 
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8"/>
+      <title>Prices</title>
+      <meta name="description"  content="prices for patients account management"/>
+    </Helmet>
     <TableContainer component={Paper} className="price-table-container">
       <Table className="prices-table my-xs-5" aria-label="simple table">
         <TableHead>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import {Helmet} from "react-helmet";
 
 import VcitaPic from "../assests/vCita-new-clients.gif"
 import AddClientsPic from "../assests/add-clients.png"
@@ -17,6 +18,11 @@ export default function FullWidthGrid() {
 
   return (
     <div className={classes.root}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>vCita</title>
+        <meta name="description" content="vCita accounts to manage patients information and online appointments"></meta>
+      </Helmet>
       <Grid container spacing={0} className="pt-md-5 py-xs-5 mt-xs-3 mt-md-5 vCita-Page-container">
         <Grid item xs={12} sm={12} md={7} className="vCita-new-clients-h1-col text-right pr-md-5 pb-md-5">
           <h1 className="vCita-new-clients-h1 text-right pr-xs-2">
