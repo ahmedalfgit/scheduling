@@ -3,10 +3,14 @@ import NavBar from '../src/components/navBar';
 import './App.scss';
 import Footer from "../src/components/footer";
 import { Route, BrowserRouter as Router, Link, Switch } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import Home from './components/Project'
 import Prices from './components/prices'
 import VCita from './components/vcita'
+
+ReactGA.initialize('193645917');
+
 
 export default function App() {
     return (
