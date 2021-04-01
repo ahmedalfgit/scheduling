@@ -8,16 +8,13 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import {Document, pdfjs} from "react-pdf";
-
-import Contract from "../assests/contract.pdf";
-
 
 const useStyles = makeStyles({
   table: {
     minWidth: 650,
   },
 });
+
 
 const basic = "$40/month";
 const premium = "$72/month";
@@ -36,8 +33,6 @@ const rows = [
 
 
 export default function PricesTable() {
-
-  pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;  
 
   return (
     <>
@@ -63,13 +58,14 @@ export default function PricesTable() {
         </TableBody>
       </Table>
     </TableContainer>
-    <Grid container space={0} className="pt-5 mt-5">
-      <Grid item md={10} sx={12} xs={12}>
-        {/* اختر الاشتراك المناسب واملإ البيانات ادناه */}
-        Read the PDF
+    <Grid container space={0} className="pt-2 contract-container">
+      <Grid item md={10} sx={12} xs={12} className="float-right">
+        <p className="contract-p">اختر الاشتراك المناسب لك واملآ المعلومات بالضغط على الزر ادناه</p>
       </Grid>
-      <Grid item md={10} sx={12} xs={12}>
-       <Document file="https://www.redscheduling.com/contract.pdf"/>
+      <Grid item md={10} sx={12} xs={12} className="float-right contract-btn-col pt-md-4">
+        <a className="pdf-btn" href="https://www.redscheduling.com/contract.pdf">
+           PDF
+         </a>
       </Grid>
     </Grid>
     </>
