@@ -27,14 +27,14 @@ function VcitaSvgCode(props) {
          <p className="vcita-p text-right">
          معلومات المرضي، تحقق من معلومات المريض لمعرفة المواعيد القادمة باستخدام المعلومات التي يتم تدوينها في كل زيارة 
          </p>
-         <ul className="list vcita-list">
+         {/* <ul className="list vcita-list">
            <li className="item">
            ضمان معرفة العلاج المستخدم في كل مراجعة
            </li>
            <li className="item">
            مراجعة المعلومات في اي وقت ومكان           
            </li>
-         </ul>
+         </ul> */}
        </Grid>
        <Grid item xs={12} sm={5} md={5} className="vcita-logo-col">
        <picture className="w-100">

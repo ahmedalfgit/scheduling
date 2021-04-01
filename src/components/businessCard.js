@@ -32,11 +32,11 @@ function BusinessCard(props) {
          <p className="businessCard-p text-right">
          أنت تستحق بطاقة عمل تحمل شعارك واسمك ومعلومات الاتصال الخاصة بك ورمز الباركود الخاص بك لحجز مواعيدك من خلال الإنترنت
          </p>
-         <ul className="list businessCard-list">
+         {/* <ul className="list businessCard-list">
            <li className="item">
            عرض كل معلومات الاتصال الخاصة بك بحيث يسهل الوصول الى حجز المواعيد من خلال الإنترنت
            </li>
-         </ul>
+         </ul> */}
        </Grid>
      </Grid>
    </div>

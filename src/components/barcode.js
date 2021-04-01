@@ -24,14 +24,14 @@ function BarCode(props) {
          <p className="barcode-p text-right">
          سنجعل الأمر سهلاً لحجز موعد، فقط قم بمسح الباركود عن طريق هاتفك، أضف الباركود إلى بطاقة العمل الخاصة بك وموقعك الإلكتروني
          </p>
-         <ul className="barcode-list list">
+         {/* <ul className="barcode-list list">
            <li className="item">
            يمكن استخدامه في أي مكان وفي أي وقت
            </li>
            <li className="item">
            إضافته إلى بطاقة العمل الخاصة بك
            </li>
-         </ul>
+         </ul> */}
        </Grid>
        <Grid item xs={12} sm={10} md={5} className="barcode-logo-col">
           <picture className="w-100">

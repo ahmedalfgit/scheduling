@@ -31,14 +31,14 @@ function Booking(props) {
          <p className="booking-p text-right">
          العمل ضمن جدولك هو حرية، دعنا نقدم لك هذه الحرية، سيتمكن مرضاك من حجز المواعيد خلال دقيقة، وسيظهر لك التقويم الشخصي تاريخ ووقت كل موعد، للاستفادة من كل دقيقة في يومك
          </p>
-         <ul className="list booking-list">
+         {/* <ul className="list booking-list">
            <li className="item">
            حجز مواعيد خلال دقيقة
            </li>
            <li className="item">
            العمل ضمن جدولك المحدد         
            </li>
-         </ul>
+         </ul> */}
        </Grid>
      </Grid>
    </div>

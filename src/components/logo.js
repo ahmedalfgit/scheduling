@@ -31,7 +31,7 @@ function Logo(props) {
          <p className="logo-p text-right">
          سوف يتذكرك مرضاك بالشعار الفريد الذي سنصممه لك، سنضيف شعارك إلى موقعك على شبكة الإنترنت وإلى بطاقة الأعمال الخاصة بك وسوف نقوم بتصديرها للطباعة الورقية
          </p>
-         <ul className="list logo-list">
+         {/* <ul className="list logo-list">
            <li className="item">
            يمكنك إضافته إلى بطاقة العمل الخاصة بك           
            </li>
@@ -41,7 +41,7 @@ function Logo(props) {
            <li className="item">
            إضافته إلى موقعك الإلكتروني      
            </li>
-         </ul>
+         </ul> */}
        </Grid>
      </Grid>
    </div>

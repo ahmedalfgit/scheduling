@@ -24,7 +24,7 @@ function Website(props) {
          <p className="website-p text-right">
          سنستخدم أحدث التقنيات لتطوير موقع إلكتروني لك أو لعيادتك، موقع إلكتروني يعرض كل إنجازاتك والعمليات الجراحية الناجحة، وسوف تختار اسم موقع الويب الخاص بك
          </p>
-         <ul className="list website-list">
+         {/* <ul className="list website-list">
            <li className="item">
            عرض المعلومات المهمة          
            </li>
@@ -34,7 +34,7 @@ function Website(props) {
            <li className="item">
            معرفة الحالة الصحية لكل مريض      
            </li>
-         </ul>
+         </ul> */}
        </Grid>
        <Grid item xs={12} sm={10} md={5} className="website-logo-col">
           <picture className="w-100">

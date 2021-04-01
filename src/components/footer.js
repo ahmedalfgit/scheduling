@@ -37,8 +37,8 @@ const Footer = (props) => {
                 تغير للافضل
                 </h1>
             </Grid>
-            <Grid item sm={12} xs={12} md={12} className="footer-copy-right-col">
-                <h5 className="footer-copy-right-h5">
+            <Grid item sm={12} xs={12} md={12} className="footer-copy-right-col pl-md-2">
+                <h5 className="footer-copy-right-h5 pl-md-3 pl-sm-3">
                     PotooWeb 2021
                 </h5>
             </Grid>
