@@ -69,7 +69,7 @@ export default function PricesTable() {
         Read the PDF
       </Grid>
       <Grid item md={10} sx={12} xs={12}>
-       <Document file="http://www.redscheduling.com/contract.pdf"/>
+       <Document file="https://www.redscheduling.com/contract.pdf"/>
       </Grid>
     </Grid>
     </>
