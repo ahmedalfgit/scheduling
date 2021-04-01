@@ -709,6 +709,38 @@ body {
       min-width: 320px;
     }
   }
+  .price-table-container {
+    box-shadow: none!important;
+  }
+  .contract-container {
+    margin: 0rem 0rem 4rem 0rem;
+    .float-right {
+      float: right;
+
+      .contract-p {
+        display: flex;
+        float: right;
+        font-size: 18px;
+        width: 90%;
+        text-align: right;
+      }
+    }
+    .contract-btn-col {
+      margin-top: 1rem;
+      float: right;
+      .pdf-btn {
+        float: right;
+        font-size: 22px;
+        padding: 15px 100px;
+        background-color: #ff3e3e;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        border-radius: 35px;
+        box-shadow: 0px 0px 42px 0px rgba(110, 110, 110, 0.2);
+      }
+    }
+  }
 }
 @media only screen and (min-width: 900px) {
   .pt-md-1 {

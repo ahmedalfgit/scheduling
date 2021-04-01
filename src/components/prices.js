@@ -59,10 +59,10 @@ export default function PricesTable() {
       </Table>
     </TableContainer>
     <Grid container space={0} className="pt-2 contract-container">
-      <Grid item md={10} sx={12} xs={12} className="float-right">
+      <Grid item md={10} sx={10} xs={10} className="float-right">
         <p className="contract-p">اختر الاشتراك المناسب لك واملآ المعلومات بالضغط على الزر ادناه</p>
       </Grid>
-      <Grid item md={10} sx={12} xs={12} className="float-right contract-btn-col pt-md-4">
+      <Grid item md={10} sx={10} xs={10} className="float-right contract-btn-col pt-md-4">
         <a className="pdf-btn" href="https://www.redscheduling.com/contract.pdf">
            PDF
          </a>

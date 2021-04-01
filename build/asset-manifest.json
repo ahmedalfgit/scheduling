@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.3d2eae7a.chunk.css",
-    "main.js": "./static/js/main.3ffef78b.chunk.js",
-    "main.js.map": "./static/js/main.3ffef78b.chunk.js.map",
+    "main.css": "./static/css/main.0fbbad71.chunk.css",
+    "main.js": "./static/js/main.03abe443.chunk.js",
+    "main.js.map": "./static/js/main.03abe443.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.24d87ee8.js",
     "runtime-main.js.map": "./static/js/runtime-main.24d87ee8.js.map",
     "static/js/2.56767c71.chunk.js": "./static/js/2.56767c71.chunk.js",
     "static/js/2.56767c71.chunk.js.map": "./static/js/2.56767c71.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.3d2eae7a.chunk.css.map": "./static/css/main.3d2eae7a.chunk.css.map",
+    "static/css/main.0fbbad71.chunk.css.map": "./static/css/main.0fbbad71.chunk.css.map",
     "static/js/2.56767c71.chunk.js.LICENSE.txt": "./static/js/2.56767c71.chunk.js.LICENSE.txt",
     "static/media/Vcita-mobile.8f0f4cb8.jpg": "./static/media/Vcita-mobile.8f0f4cb8.jpg",
     "static/media/Vcita.17863d2f.jpg": "./static/media/Vcita.17863d2f.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.24d87ee8.js",
     "static/js/2.56767c71.chunk.js",
-    "static/css/main.3d2eae7a.chunk.css",
-    "static/js/main.3ffef78b.chunk.js"
+    "static/css/main.0fbbad71.chunk.css",
+    "static/js/main.03abe443.chunk.js"
   ]
 }
