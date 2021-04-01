@@ -9,7 +9,7 @@ import Home from './components/Project'
 import Prices from './components/prices'
 import VCita from './components/vcita'
 
-ReactGA.initialize('G-WES73M7M9D');
+ReactGA.initialize('UA-193645917-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function App() {
