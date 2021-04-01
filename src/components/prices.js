@@ -8,7 +8,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import {Document} from "react-pdf";
+import {Document, pdfjs} from "react-pdf";
 
 import Contract from "../assests/contract.pdf";
 
@@ -34,8 +34,10 @@ const rows = [
   createData('Barcode', 'X', 'Yes'),
 ];
 
+
 export default function PricesTable() {
-  const classes = useStyles();
+
+  pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;  
 
   return (
     <>
@@ -63,10 +65,11 @@ export default function PricesTable() {
     </TableContainer>
     <Grid container space={0} className="pt-5 mt-5">
       <Grid item md={10} sx={12} xs={12}>
-        اختر الاشتراك المناسب واملإ البيانات ادناه
+        {/* اختر الاشتراك المناسب واملإ البيانات ادناه */}
+        Read the PDF
       </Grid>
       <Grid item md={10} sx={12} xs={12}>
-       <Document file="https://www.redscheduling.com/contract.pdf"/>
+       <Document file="./contract.pdf"/>
       </Grid>
     </Grid>
     </>
