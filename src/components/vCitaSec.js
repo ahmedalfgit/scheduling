@@ -22,11 +22,9 @@ function VcitaSvgCode(props) {
        <Grid item xs={12} sm={5} md={5} className="content-section mb-5 vcita-content-col pt-md-1 mr-md-4">
          <h2 className="vcita-h2 text-right mt-md-5">حساب لحفظ معلومات كل زياره</h2>
          <p className="vcita-p text-right first-vcita-p">
-         لنوفر لك حساباً لحفظ كل  (vCita) لقد تشاركنا مع شركة 
+            لقد تشاركنا مع شركة  ( فسيتا ) لنوفر لك حساباً لحفظ معلومات المرضى، تحقق من معلومات المرضى واطلع على المواعيد القادمة والعلاج لكل مريض
          </p>
-         <p className="vcita-p text-right">
-         معلومات المرضي، تحقق من معلومات المريض لمعرفة المواعيد القادمة باستخدام المعلومات التي يتم تدوينها في كل زيارة 
-         </p>
+         
          {/* <ul className="list vcita-list">
            <li className="item">
            ضمان معرفة العلاج المستخدم في كل مراجعة

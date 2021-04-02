@@ -10,6 +10,8 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import {Helmet} from 'react-helmet';
 
+import ZZ from '../assests/logo-mobile.jpg';
+
 const useStyles = makeStyles({
   table: {
     minWidth: 650,
@@ -25,11 +27,11 @@ function createData(name, basic, premium) {
 }
 
 const rows = [
-  createData('Vcita', 'Yes', 'Yes'),
-  createData('Logo', 'X', 'Yes'),
-  createData('Website', 'X', 'Yes'),
-  createData('Busniess Card', 'X', 'Yes'),
-  createData('Barcode', 'X', 'Yes'),
+  createData('Vcita', 'Included', 'Included'),
+  createData('Logo', 'Not included', 'Included'),
+  createData('Website', 'Not included', 'Included'),
+  createData('Busniess Card', 'Not included', 'Included'),
+  createData('Barcode', 'Not included', 'Included'),
 ];
 
 

@@ -22,7 +22,7 @@ function BarCode(props) {
        <Grid item xs={12} sm={10} md={5}  className="content-section mb-5 barcode-content-col">
          <h2 className="barcode-h2 text-right mt-md-5">الحجز عن طريق المسحة الضوئية</h2>
          <p className="barcode-p text-right">
-         سنجعل الأمر سهلاً لحجز موعد، فقط قم بمسح الباركود عن طريق هاتفك، أضف الباركود إلى بطاقة العمل الخاصة بك وموقعك الإلكتروني
+         حجز اسهل واسرع، قم بمسح الباركود عن طريق هاتفك واحجز موعد. أضف الباركود إلى بطاقة العمل الخاصة بك وموقعك الإلكتروني
          </p>
          {/* <ul className="barcode-list list">
            <li className="item">

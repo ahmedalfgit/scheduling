@@ -22,7 +22,7 @@ function Website(props) {
        <Grid item xs={12} sm={10} md={5} className="content-section mb-5 website-content-col">
          <h2 className="website-h2 text-right mt-md-5">الموقع الألكتروني</h2>
          <p className="website-p text-right">
-         سنستخدم أحدث التقنيات لتطوير موقع إلكتروني لك أو لعيادتك، موقع إلكتروني يعرض كل إنجازاتك والعمليات الجراحية الناجحة، وسوف تختار اسم موقع الويب الخاص بك
+         سنستخدم أحدث التقنيات لتطوير موقع إلكتروني لك أو لعيادتك، موقع إلكتروني يعرض كل إنجازاتك والعمليات الجراحية الناجحة، وسوف تختار اسم الموقع الخاص بك
          </p>
          {/* <ul className="list website-list">
            <li className="item">
