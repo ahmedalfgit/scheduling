@@ -28,7 +28,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 const NavBar = (props) => {
   const { history } = props;
-  const classes = useStyles();
   const [anchorE1, setAnchorE1] = React.useState(null);
   const open = Boolean(anchorE1);
   const theme = useTheme();
@@ -46,7 +45,7 @@ const NavBar = (props) => {
     return (
       <div>
         <Helmet>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       </Helmet>
       <div className="main-nav">
         <AppBar position="static" className="navBar-bg">

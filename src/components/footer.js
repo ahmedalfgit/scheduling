@@ -10,8 +10,7 @@ const Footer = (props) => {
   return (
     <React.Fragment>
         <Helmet>
-        <script src="https://apps.elfsight.com/p/platform.js" defer>
-            </script>
+        {/* <script src="https://apps.elfsight.com/p/platform.js" defer></script> */}
       </Helmet>
     <TableFooter className="footer">
         <Grid container className="pt-5 mt-5 justify-center">
@@ -26,7 +25,7 @@ const Footer = (props) => {
                         </li>
                         <li className="footer-contact-item">
                             <a href="mailto:hello@redscheduling.com" className="email">
-                            hello@redscheduling.com
+                                hello@redscheduling.com
                             </a>
                         </li>
                     </ul>
@@ -34,7 +33,7 @@ const Footer = (props) => {
             </Grid>
             <Grid item sm={10} xs={12} md={5} className="footer-h1-col">
                 <h1 className="footer-h1">
-                تغير للافضل
+                    تغيير للافضل
                 </h1>
             </Grid>
             <Grid item sm={12} xs={12} md={12} className="footer-copy-right-col pl-md-2">
@@ -43,7 +42,7 @@ const Footer = (props) => {
                 </h5>
             </Grid>
         </Grid>
-        <div className="elfsight-app-38d41f1d-12a1-4f33-a280-71371f5263dd"></div>
+        {/* <div className="elfsight-app-38d41f1d-12a1-4f33-a280-71371f5263dd"></div> */}
     </TableFooter>
       </React.Fragment>
    
