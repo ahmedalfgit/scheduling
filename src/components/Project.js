@@ -53,7 +53,7 @@ const FullWidthGrid = (props) => {
         <Grid item xs={12} sm={8} md={3} className="homePage-content-col">
           <div className="mission-section pt-xs-5">
             <h1 className="statement-h1">
-              التغير اسهل معنا
+              التغيير اسهل معنا
             </h1>
             <p className="statement-p">أنظم الان وتمتع بمختلف البرامج
               للتواصل مع مراجعيك</p>
