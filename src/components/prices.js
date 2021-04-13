@@ -27,11 +27,11 @@ function createData(name, basic, premium) {
 }
 
 const rows = [
-  createData('Vcita', 'Included', 'Included'),
-  createData('Logo', 'Not included', 'Included'),
+  createData('Vcita account', 'Included', 'Included'),
+  createData('Logo', 'Included', 'Included'),
   createData('Website', 'Not included', 'Included'),
-  createData('Busniess Card', 'Not included', 'Included'),
-  createData('Barcode', 'Not included', 'Included'),
+  createData('Busniess Card', 'Included', 'Included'),
+  createData('Barcode', 'Included', 'Included'),
 ];
 
 
